@@ -1,6 +1,5 @@
 import 'package:cuaca/constant/format_date.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 import '../data/model/weather_detail_model.dart';
 

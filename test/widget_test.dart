@@ -6,12 +6,8 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:cuaca/data/model/weather_model.dart';
-import 'package:cuaca/data/provider/weather_provider.dart';
 import 'package:cuaca/data/repositories/weather_repositori.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:cuaca/main.dart';
 
 void main() {
   test('Test Repo', () async {
