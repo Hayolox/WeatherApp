@@ -1,16 +1,13 @@
 # cuaca
 
-A new Flutter project.
+## How Clone 
 
-## Getting Started
+-  git clone https://github.com/Hayolox/WeatherApp.git
 
-This project is a starting point for a Flutter application.
+-  Pindah ke direktori WeatherApp:cd WeatherApp
 
-A few resources to get you started if this is your first Flutter project:
+-  Jalankan perintah berikut untuk menginstal semua dependensi yang dibutuhkan:flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-  Setelah semua dependensi terinstal, Anda dapat membangun dan menjalankan aplikasi dengan perintah berikut: flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Untuk melihat hasil build APK, Anda dapat mengklik link berikut: https://drive.google.com/file/d/1AJ0o09pF5HupYdtGKW1R8DiO89-GuZmC/view?usp=sharing.
