@@ -44,6 +44,7 @@ class HomePage extends StatelessWidget {
                                 celcius: (data.list[index].main.temp - 273.15)
                                     .toStringAsFixed(2),
                                 status: data.list[index].weather[0].main,
+                                spped: data.list[index].wind.speed,
                                 tempMin: data.list[index].main.tempMin,
                                 tempMax: data.list[index].main.tempMax,
                                 dtTxt: data.list[index].dtTxt,

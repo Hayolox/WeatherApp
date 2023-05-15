@@ -13,6 +13,7 @@ String weatherDetailModelToJson(WeatherDetailModel data) =>
 class WeatherDetailModel {
   String celcius;
   String status;
+  double spped;
   double tempMin;
   double tempMax;
   DateTime dtTxt;
@@ -20,6 +21,7 @@ class WeatherDetailModel {
   WeatherDetailModel({
     required this.celcius,
     required this.status,
+    required this.spped,
     required this.tempMin,
     required this.tempMax,
     required this.dtTxt,
@@ -29,6 +31,7 @@ class WeatherDetailModel {
       WeatherDetailModel(
         celcius: json["celcius"],
         status: json["status"],
+        spped: json["spped"],
         tempMin: json["temp_min"]?.toDouble(),
         tempMax: json["temp_max"]?.toDouble(),
         dtTxt: DateTime.parse(json["dt_txt"]),

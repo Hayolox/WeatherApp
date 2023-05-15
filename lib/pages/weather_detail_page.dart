@@ -87,7 +87,25 @@ class WheatherDetailPage extends StatelessWidget {
                   ],
                 )
               ],
-            )
+            ),
+            Column(
+              children: [
+                const Text(
+                  'Speed',
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  '${args.spped}',
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
